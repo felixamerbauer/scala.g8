@@ -5,7 +5,7 @@ import org.scalatest.Matchers._
 
 class TestSuite extends FunSuite {
 
-  test("a + b = ab") {
-    Test.add("a","b") shouldBe "ab"
+  test("1 + 1 = 2") {
+    Test.add(1,1) shouldBe 2
   }
 }
