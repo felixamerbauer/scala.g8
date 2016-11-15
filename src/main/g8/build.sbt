@@ -1,7 +1,7 @@
 name := "$name$"
 organization := "$organization$"
-version := "0.1.0-SNAPHSHOT"
-scalaVersion := "2.11.8"
+version := "$version$"
+scalaVersion := "$scalaVersion$"
 
 scalacOptions ++= Seq(
   "-encoding", "UTF-8",
