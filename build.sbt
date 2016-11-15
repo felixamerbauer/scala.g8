@@ -1,6 +1,6 @@
-name := "tbd"
+name := "$name$"
 
-organization := "tbd"
+organization := "$tbd$"
 
 version := "0.1.0-SNAPHSHOT"
 
@@ -26,7 +26,6 @@ crossPaths := false
 // avoids the java folders src/test
 unmanagedSourceDirectories in Compile := (scalaSource in Compile).value :: Nil
 unmanagedSourceDirectories in Test := (scalaSource in Test).value :: Nil
-
 
 libraryDependencies ++= Seq(
   // logging
