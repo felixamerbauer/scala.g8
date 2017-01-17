@@ -34,5 +34,5 @@ libraryDependencies ++= Seq(
   // config
   "com.typesafe" % "config" % "1.3.1",
   // tests
-  "org.scalatest" %% "scalatest" % "3.0.0" % "test"
+  "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 )
