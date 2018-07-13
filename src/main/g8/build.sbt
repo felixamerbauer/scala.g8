@@ -26,13 +26,13 @@ unmanagedSourceDirectories in Test := (scalaSource in Test).value :: Nil
 
 libraryDependencies ++= Seq(
   // logging
-  "com.typesafe.scala-logging" %% "scala-logging" % "3.7.2",
-  "org.apache.logging.log4j" % "log4j-slf4j-impl" % "2.8.2",
-  "org.apache.logging.log4j" % "log4j" % "2.8.2",
-  "org.apache.logging.log4j" % "log4j-api" % "2.8.2",
-  "org.apache.logging.log4j" % "log4j-core" % "2.8.2",
+  "com.typesafe.scala-logging" %% "scala-logging" % "3.9.0",
+  "org.apache.logging.log4j" % "log4j-slf4j-impl" % "2.11.0",
+  "org.apache.logging.log4j" % "log4j" % "2.11.0",
+  "org.apache.logging.log4j" % "log4j-api" % "2.11.0",
+  "org.apache.logging.log4j" % "log4j-core" % "2.11.0",
   // config
-  "com.typesafe" % "config" % "1.3.1",
+  "com.typesafe" % "config" % "1.3.3",
   // tests
-  "org.scalatest" %% "scalatest" % "3.0.3" % "test"
+  "org.scalatest" %% "scalatest" % "3.0.5" % "test"
 )
